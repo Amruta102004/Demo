@@ -1,3 +1,8 @@
 # string palindrome
 str=input("Enter String :")
-print(str[::-1])
+if str[::-1]:
+  print("String is palindrome")
+else:
+  print("String is not palindrome")
+  
+
